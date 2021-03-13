@@ -4,7 +4,7 @@
 
 <main>
   <h1 class='font-black text-5xl mb-6'>Pre-owned</h1>
-  <section class='grid grid-cols-7 gap-6'>
+  <section class='grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 gap-6'>
     {#each data as item}
       <ItemListing item={item} />
     {/each}
