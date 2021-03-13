@@ -3,7 +3,7 @@
 </svelte:head>
 
 <main>
-  <h1 class='font-black text-5xl'>Pre-owned</h1>
+  <h1 class='font-black text-5xl mb-6'>Pre-owned</h1>
   <section class='grid grid-cols-7 gap-6'>
     {#each data as item}
       <ItemListing item={item} />
@@ -44,12 +44,6 @@ async function fetchData() {
     }
     loading = true;
     console.log('🔃 Started fetching');
-    // const formData = new FormData();
-    // formData.append("pagemax", "50")
-    // formData.append("s_st_condition_flg", "1")
-    // formData.append("s_sortkey", "preowned")
-    // formData.append("pagecnt", page.toString())
-
 
     const response = await fetch(`https://api-amiami.maelkerichard.com/`, {
       method: "POST",
