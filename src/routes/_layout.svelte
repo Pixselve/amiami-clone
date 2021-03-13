@@ -5,7 +5,7 @@
   </form>
 
 </nav>
-<main class='p-5 dark:bg-gray-800 dark:text-gray-50'>
+<main class='p-5 dark:bg-gray-800 dark:text-gray-50 min-h-screen'>
   <slot />
 </main>
 
