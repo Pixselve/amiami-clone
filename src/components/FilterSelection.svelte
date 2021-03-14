@@ -1,6 +1,6 @@
 <select bind:value={value} class='rounded-md dark:bg-gray-600 dark:text-white truncate'>
   <option value={-1}>All</option>
-  {#each optionsGuard ?? [] as option}
+  {#each optionsGuard as option}
     <option value={option.id}>{option.name} ({option.count})</option>
   {/each}
 </select>
