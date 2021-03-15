@@ -8,7 +8,7 @@ Available [here](https://f4454bc0.amiami-clone.pages.dev/).
 
 ## ✅ Functionalities
 
-- Search the pro owned section (without filters)
+- Search the pre owned section (without filters)
 - Search for specifics items (with our without filters)
 
 ## 📃 Todo
